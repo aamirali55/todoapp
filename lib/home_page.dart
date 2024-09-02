@@ -10,7 +10,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   TextEditingController nameController = TextEditingController();
-  List friendsNames = [""];
+  List friendsNames = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
